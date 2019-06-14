@@ -87,7 +87,7 @@
     background-position: center;
     color: #efefef !important;
     background-attachment: fixed;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 
     width: 100%;
@@ -133,7 +133,7 @@
 /*----------Speakers----------*/
 #speakers
 {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
     color: #555;
 }
@@ -242,7 +242,8 @@ h1::after
 /*----------Schedule----------*/
 #schedule
 {
-    padding: 40px 0;
+    padding-top: 100px;
+    /* padding: 40px 0; */
     background: #efefef;
 
 }
@@ -299,13 +300,13 @@ h1::after
 #registration
 {
     background: #efefef;
-    padding-top: 40px;
+    padding-top: 100px;
     padding-bottom: 40px;
     color: #777;
 }
 .registration-form
 {
-    padding: 15px;
+    padding-left: 230px;
 }
 .form-control
 {
