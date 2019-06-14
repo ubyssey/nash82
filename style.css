@@ -46,7 +46,7 @@
 {
     width: 100%;
 }
-.carousel-caption
+/* .carousel-caption
 {
     top: 50%;
     transform: translateY(-50%);
@@ -56,7 +56,7 @@
 {
     color: #fff;
     font-size: 42px;
-}
+} */
 
 /*---------About---------*/
 #about
@@ -126,7 +126,255 @@
 
 .community-pic1
 {
-    padding: 20px;
-    height: 400px;
-    width: 600px;
+    overflow:hidden;
+    
+}
+
+/*----------Speakers----------*/
+#speakers
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1
+{
+    text-align:center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content:'';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 230px;
+    margin: 20px auto 5px;
+}
+.profile-pic
+{
+    margin-top: 25px;
+}
+
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+    height: 200px;
+    width: 200px;
+}
+
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#team .fa
+{
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background: #fff;
+    padding: 4px;
+}
+
+.img-box ul
+{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+}
+
+.img-box:hover ul
+{
+    opacity: 1;
+}
+
+.img-box ul, .img-box ul li
+{
+    transition: 0.5
+}
+/*----------Promo----------*/
+#promo
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/image-3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+/*----------Schedule----------*/
+#schedule
+{
+    padding: 40px 0;
+    background: #efefef;
+
+}
+.daily-schedule
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.daily-schedule:hover
+{
+    box-shadow: 0 2px 20px #333;
+}
+
+.daily-head
+{
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.daily-head h2
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.daily-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.daily-content ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+/*----------Registration----------*/
+#registration
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.registration-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+.contact-info .fa
+{
+    margin: 20px;
+    color: #007bff;
+    font-weight: bold;
+}
+/*----------Sponsors----------*/
+#sponsors
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sponsors .row
+{
+    margin-top:70px;
+}
+
+.col-md-4
+{
+    margin: 40px auto;
+}
+
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+
+.user
+{
+    width:300px;
+    height: 180px;
+    border-radius: 10%;
+}
+
+.profile img
+{
+    top: -60px;
+    position: absolute;
+    border: 10px solid #fff;
+}
+/*----------Footer----------*/
+#footer
+{
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+}
+:fa-heart
+{
+    margin: 3px;
+    color: red;
 }
