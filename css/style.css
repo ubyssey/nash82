@@ -7,10 +7,18 @@ p{
 	margin:0;
 	font-size:14px;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h4,h6{
 	font-family: 'Josefin Sans', sans-serif;
 	margin:0;
 }
+h3{
+	font-family: Arial Narrow,Arial,sans-serif; 
+}
+
+h5{
+	font-family: Geneva,Tahoma,Verdana,sans-serif; 
+}
+
 ul,label{
 	margin:0;
 	padding:0;
@@ -227,7 +235,7 @@ ul.social-icons li {
 /*-- agileits --*/
 .navbar-brand span {
     display: inline-block;
-    color: #F58703;
+    color: #f7aa2d;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background: none;
@@ -1753,6 +1761,60 @@ a.pa_italic:focus {
 .wthree_write_reply input[type="submit"]:hover{
 	background:#F58703;
 }
+
+/*----------Schedule----------*/
+#schedule h1
+{
+    text-align:center;
+    color: black !important;
+	padding-bottom: 10px;
+	font-size: 2.2em;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+
+#schedule
+{
+    padding-top: 100px;
+    /* padding: 40px 0; */
+    background: #fff;
+
+}
+
+/*----------Registration----------*/
+#registration
+{
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.registration-form
+{
+    padding-left: 230px;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #fff !important;
+}
+
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+.contact-info .fa
+{
+    margin: 20px;
+    color: #007bff;
+    font-weight: bold;
+}
+
 /*-- //single --*/
 /*-----start-responsive-design------*/
 @media (max-width:1680px){
