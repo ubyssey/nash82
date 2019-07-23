@@ -40,11 +40,11 @@ input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments
 	padding-right:1em;
 }
 .w3l_header_left ul li a{
-	color:#212121;
+	color:rgba(188, 188, 188, 0.57);;
 	text-decoration:none;
 }
 .w3l_header_left ul li a:hover{
-	color:#999;
+	color:#0071c9;
 }
 .w3l_header_right{
 	float: right;
@@ -482,6 +482,7 @@ ul.social-icons li {
 	text-align: center;
 	padding-right: 300px;
 	padding-left: 300px;
+	padding-top: 20px;
 	color: rgba(188, 188, 188, 0.57);
 	border-left: 5px solid rgba(188, 188, 188, 0.57);
 	border-right: 5px solid rgba(188, 188, 188, 0.57);
@@ -659,96 +660,7 @@ position:relative;
 
 
 /*-- //newsletter --*/
-/*-- footer --*/
-.footer{
-	background:#1C1C1C;
-    padding: 3em 0;
-}
-.footer-logo h2 a{
-	font-size: 2em;
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
-    background: url(../images/img-sp.png) no-repeat 0px -180px;
-    padding-left: 1.2em;
-}
-.footer-logo h2 a i{
-	transform: rotate(-180deg);
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    display: inline-block;
-    color: #F58703;
-	font-style:normal;
-}
-.footer-logo h2 a span{
-	display: block;
-    font-size:0.3em;
-	line-height: 0;
-	padding-left: 4em;
-}
-.agileinfo_footer_grid h4{
-	font-size:1em;
-	color:#fff;
-	margin: 1.5em 0 0;
-    line-height: 2em;
-}
-.agileinfo_footer_grid h4 span{
-	display:block;
-	font-size: 2em;
-}
-.agileinfo_footer_grid p{
-	margin: 1em 0 0;
-    color: #fff;
-    line-height: 2em;
-}
-.agileinfo_footer_grid p span{
-	display:block;
-}
-.agileinfo_footer_grid ul{
-	padding:1em 0 0;
-}
-.agileinfo_footer_grid ul:nth-child(2){
-	padding:0;
-}
-.agileinfo_footer_grid ul li{
-	list-style-type:none;
-	margin:0 0 1em;
-}
-.agileinfo_footer_grid ul li a{
-	font-size:14px;
-	text-decoration:none;
-	color:#fff;
-}
-.agileinfo_footer_grid ul li a:hover{
-	color:#F58703;
-}
-.footer-copy{
-	background:#3D3D3D;
-	padding:1.5em 0;
-	text-align:center;
-}
-.footer-copy p{
-	line-height:1.8em;
-	color:#fff;
-	margin:0;
-}
-.footer-copy p a{
-	color:#F58703;
-}
-.footer-copy p a:hover{
-	color:#fff;
-}
-.agileinfo_footer_grid1 ul li{
-	padding-left: 2em;
-    background: url(../images/img-sp.png) no-repeat -19px -260px;
-}
-.agileinfo_footer_grid_left{
-	float:left;
-	width:50%;
-}
-/*-- //footer --*/
+
 /*-- to-top --*/
 #toTop {
 	display: none;
