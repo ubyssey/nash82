@@ -1,16 +1,36 @@
 html, body{
     font-size: 100%;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	background:#ffffff;}
 p{
 	margin:0;
 	font-size:14px;}
 h3{
-	font-family: 'Arial Narrow',Arial,sans-serif; 
+	font-family: "Arial Narrow",Arial,sans-serif; 
+	
+}
+
+h3 span 
+{
+	margin:20px;
+    display: block;
+}
+
+h3::before {
+	color: #f7aa2d;
+	margin-right: 20px;
+	content: '[';
+
+}
+
+h3::after {
+	color: #f7aa2d;
+	margin-right: 20px;
+	content: ']';
 }
 
 h5{
-	font-family: 'Geneva',Tahoma,Verdana,sans-serif; 
+	font-family: Geneva,Tahoma,Verdana,sans-serif; 
 }
 
 ul,label{
@@ -21,13 +41,6 @@ body a:hover{
 	text-decoration:none;
 }
 /*-- header --*/
-input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments-grid-right h4 a,.reply a,.w3_single_grid_left_grid ul li a,ul.contact_info li a,.w3ls_services_bottom_grid_grid_pos,.footer-copy p a,.w3l_services_grid h4 a,.agileinfo_footer_grid ul li a,.wthree_service_breadcrumb_left ul li a{
-	transition: .5s ease-in;
-	-webkit-transition: .5s ease-in;
-	-moz-transition: .5s ease-in;
-	-o-transition: .5s ease-in;
-	-ms-transition: .5s ease-in;
-}
 .w3l_header_left{
 	float:left;
 	margin: .3em 0 0;
@@ -289,6 +302,57 @@ ul.social-icons li {
 }
 /*-- //about --*/
 
+/*-- countdown --*/
+.clockdiv-container {
+	text-align: center;
+  }
+  
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	background: black;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	background: #0071c9;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+  /*-- //countdown --*/
+	/*-- registration --*/
+	.button-container {
+		text-align: center;
+		padding-top: 30px;
+	  }
+	.button {
+		width: 50%;
+		border-color: #0071c9;
+		border: none;
+		color: #0071c9;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 24px;
+		margin: 4px 2px;
+		cursor: pointer;
+	  }
+/*-- //registration --*/
+
 /*----------Speakers----------*/
 
 .profile-pic
@@ -319,7 +383,7 @@ ul.social-icons li {
 .profile-pic h2
 {
     font-size: 22px;
-    font-family: Arial Narrow,Arial,sans-serif;
+    font-family: "Arial Narrow",Arial,sans-serif;
     margin-top: 15px;
     color: #F58703 !important;
 }
