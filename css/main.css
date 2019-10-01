@@ -817,7 +817,7 @@ a:hover {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 19%;
+  top: 18%;
   width: 100%; /* Full width */
   height: 80%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -830,7 +830,7 @@ a:hover {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 28%;
+  top: 26%;
   width: 100%; /* Full width */
   height: 70%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -843,7 +843,7 @@ a:hover {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 37%;
+  top: 34%;
   width: 100%; /* Full width */
   height: 60%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -856,7 +856,7 @@ a:hover {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 45%;
+  top: 42%;
   width: 100%; /* Full width */
   height: 50%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -869,7 +869,7 @@ a:hover {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 54%;
+  top: 50%;
   width: 100%; /* Full width */
   height: 40%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -882,7 +882,7 @@ a:hover {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 63%;
+  top: 58%;
   width: 100%; /* Full width */
   height: 30%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -895,7 +895,7 @@ a:hover {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 72%;
+  top: 66%;
   width: 100%; /* Full width */
   height: 20%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -908,7 +908,7 @@ a:hover {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 81%;
+  top: 74%;
   width: 100%; /* Full width */
   height: 20%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -917,6 +917,19 @@ a:hover {
 }
 /* The Modal (background) */
 .lower-11-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 82%;
+  width: 100%; /* Full width */
+  height: 20%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* The Modal (background) */
+.lower-12-modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -938,7 +951,7 @@ a:hover {
 }
 
 /* The Close Button */
-.close, .lower-close, .lower-2-close, .lower-3-close, .lower-4-close, .lower-5-close, .lower-6-close, .lower-7-close, .lower-8-close, .lower-9-close, .lower-10-close, .lower-11-close{
+.close, .lower-close, .lower-2-close, .lower-3-close, .lower-4-close, .lower-5-close, .lower-6-close, .lower-7-close, .lower-8-close, .lower-9-close, .lower-10-close, .lower-11-close,.lower-12-close{
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -968,7 +981,9 @@ a:hover {
 .lower-10-close:hover,
 .lower-10-close:focus,
 .lower-11-close:hover,
-.lower-11-close:focus       {
+.lower-11-close:focus,
+.lower-12-close:hover,
+.lower-12-close:focus         {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -1969,7 +1984,7 @@ span.color-red {
   background: #4f8db3;
   padding: 0 20px 10px 20px;
   border-top: 20px solid #4f8db3;
-  margin-top: 750px;
+  margin-top: 450px;
   color: #4f8db3;
 }
 .footer h3 {
