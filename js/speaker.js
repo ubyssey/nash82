@@ -232,6 +232,24 @@ event.target.parentElement.parentElement.style.display = 'none'
 }		
 
 //********************* LEVEL 12 SPEAKERS******************************************************************//
+//********************* LEVEL 12 SPEAKERS******************************************************************//
+var lowerBtns = document.getElementsByClassName("myLower13Btn");
+
+for(let i = 0; i < lowerBtns.length; i++) {
+lowerBtns[i].onclick = () => {
+document.getElementsByClassName('lower-13-modal')[i].style.display = 'block';
+}
+}
+
+
+var lowerCloseSpans = document.getElementsByClassName('lower-13-close')
+for(var i = 0; i < lowerCloseSpans.length; i++) {
+lowerCloseSpans[i].onclick = (event) => {
+event.target.parentElement.parentElement.style.display = 'none'
+}
+}		
+
+//********************* LEVEL 12 SPEAKERS******************************************************************//
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
 if (event.target.classList.contains('modal') || event.target.classList.contains('lower-modal')
@@ -240,7 +258,7 @@ if (event.target.classList.contains('modal') || event.target.classList.contains(
 || event.target.classList.contains('lower-6-modal')|| event.target.classList.contains('lower-7-modal')
 || event.target.classList.contains('lower-8-modal')|| event.target.classList.contains('lower-9-modal')
 || event.target.classList.contains('lower-10-modal')|| event.target.classList.contains('lower-11-modal')
-|| event.target.classList.contains('lower-12-modal')) {
+|| event.target.classList.contains('lower-12-modal')|| event.target.classList.contains('lower-13-modal')) {
 event.target.style.display = "none";
 }
 }
